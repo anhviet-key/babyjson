@@ -1,2 +1,6 @@
 # @name 
-http://localhost:3000/api/products
+GET http://localhost:3000/api/products
+###
+#Fillter
+
+GET http://localhost:3000/api/products?title_like=tr
